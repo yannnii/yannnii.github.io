@@ -256,6 +256,26 @@
       renderImage();
     };
     renderImage();
+    const sliderWrapper = document.querySelector('.slider-image-wrapper');
+    let startX = 0;
+    let endX = 0;
+    sliderWrapper.addEventListener('touchstart', function(e) {
+      startX = e.touches[0].clientX;
+    });
+    sliderWrapper.addEventListener('touchmove', function(e) {
+      endX = e.touches[0].clientX;
+    });
+    sliderWrapper.addEventListener('touchend', function() {
+      const delta = endX - startX;
+      if (Math.abs(delta) > 50) {
+        if (delta < 0) {
+          document.getElementById('arrowRight').click();
+        } else {
+          document.getElementById('arrowLeft').click();
+        }
+      }
+    startX = 0;
+    endX = 0;
   </script>
 </body>
 </html>
