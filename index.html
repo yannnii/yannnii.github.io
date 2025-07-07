@@ -216,66 +216,67 @@
     <div class="footer_cont">© 2025 Услуги эвакуатора в Балаково и Балаковском районе. Быстрая и безопасная эвакуация автомобилей по городу и области. Срочный выезд, круглосуточно, профессиональные водители.</div>
   </footer>
   <script>
-    const images = [
-      'images/op4.jpg',
-      'images/op2.jpg',
-      'images/op3.jpg',
-      'images/op1.jpg',
-      'images/op5.jpg',
-      'images/op6.jpg',
-      'images/op7.jpg',
-      'images/op8.jpg',
-      'images/op9.jpg'
-    ];
-    let current = 0;
-    const sliderImg = document.getElementById('slider-img');
-    const dotsWrap = document.getElementById('slider-dots');
-    function renderImage() {
-      sliderImg.src = images[current];
-      sliderImg.alt = 'Фото ' + (current + 1);
-      renderDots();
-    }
-    function renderDots() {
-      dotsWrap.innerHTML = '';
-      for (let i = 0; i < images.length; i++) {
-        const dot = document.createElement('div');
-        dot.className = 'slider-dot' + (i === current ? ' active' : '');
-        dot.addEventListener('click', () => {
-          current = i;
-          renderImage();
-        });
-        dotsWrap.appendChild(dot);
+      const images = [
+        'images/op4.jpg',
+        'images/op2.jpg',
+        'images/op3.jpg',
+        'images/op1.jpg',
+        'images/op5.jpg',
+        'images/op6.jpg',
+        'images/op7.jpg',
+        'images/op8.jpg',
+        'images/op9.jpg'
+      ];
+      let current = 0;
+      const sliderImg = document.getElementById('slider-img');
+      const dotsWrap = document.getElementById('slider-dots');
+      function renderImage() {
+        sliderImg.src = images[current];
+        sliderImg.alt = 'Фото ' + (current + 1);
+        renderDots();
       }
-    }
-    document.getElementById('arrowLeft').onclick = function() {
-      current = (current === 0) ? images.length - 1 : current - 1;
-      renderImage();
-    };
-    document.getElementById('arrowRight').onclick = function() {
-      current = (current === images.length - 1) ? 0 : current + 1;
-      renderImage();
-    };
-    renderImage();
-    const sliderWrapper = document.querySelector('.slider-image-wrapper');
-    let startX = 0;
-    let endX = 0;
-    sliderWrapper.addEventListener('touchstart', function(e) {
-      startX = e.touches[0].clientX;
-    });
-    sliderWrapper.addEventListener('touchmove', function(e) {
-      endX = e.touches[0].clientX;
-    });
-    sliderWrapper.addEventListener('touchend', function() {
-      const delta = endX - startX;
-      if (Math.abs(delta) > 50) {
-        if (delta < 0) {
-          document.getElementById('arrowRight').click();
-        } else {
-          document.getElementById('arrowLeft').click();
+      function renderDots() {
+        dotsWrap.innerHTML = '';
+        for (let i = 0; i < images.length; i++) {
+          const dot = document.createElement('div');
+          dot.className = 'slider-dot' + (i === current ? ' active' : '');
+          dot.addEventListener('click', () => {
+            current = i;
+            renderImage();
+          });
+          dotsWrap.appendChild(dot);
         }
       }
-    startX = 0;
-    endX = 0;
+      document.getElementById('arrowLeft').onclick = function() {
+        current = (current === 0) ? images.length - 1 : current - 1;
+        renderImage();
+      };
+      document.getElementById('arrowRight').onclick = function() {
+        current = (current === images.length - 1) ? 0 : current + 1;
+        renderImage();
+      };
+      renderImage();
+  const sliderWrapper = document.querySelector('.slider-image-wrapper');
+      let touchStartX = 0;
+      let touchEndX = 0;
+
+      sliderWrapper.addEventListener('touchstart', function(e) {
+        touchStartX = e.touches[0].clientX;
+      });
+      sliderWrapper.addEventListener('touchmove', function(e) {
+        touchEndX = e.touches[0].clientX;
+      });
+      sliderWrapper.addEventListener('touchend', function() {
+        const deltaX = touchEndX - touchStartX;
+        if (Math.abs(deltaX) > 50) {
+          if (deltaX < 0) {
+            document.getElementById('arrowRight').click();
+          } else {document.getElementById('arrowLeft').click();
+          }
+        }
+        touchStartX = 0;
+        touchEndX = 0;
+      });
   </script>
 </body>
 </html>
