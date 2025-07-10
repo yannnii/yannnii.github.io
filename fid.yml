@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2024-06-09T09:00:00+00:00">
+  <shop>
+    <name>Эвакуатор Балаково</name>
+    <company>Эвакуатор Балаково</company>
+    <url>evakuatorbalakovo164.ru</url>
+    <currencies>
+      <currency id="RUR" rate="1"/>
+    </currencies>
+    <categories>
+      <category id="1">Эвакуация мотоцикла</category>
+      <category id="2">Эвакуация малолитражного авто</category>
+      <category id="3">Эвакуация легкового авто</category>
+      <category id="4">Эвакуация кроссовера</category>
+      <category id="5">Эвакуация внедорожника</category>
+      <category id="6">Эвакуация спецтехники</category>
+    </categories>
+    <sets>
+      <set id="s1">
+        <name>Эвакуация мотоцикла в Балаково</name>
+        <url>https://evakuatorbalakovo164.ru/#price-list-container</url>
+      </set>
+      <set id="s2">
+        <name>Эвакуация малолитражного авто в Балаково</name>
+        <url>https://evakuatorbalakovo164.ru/#price-list-container</url>
+      </set>
+      <set id="s3">
+        <name>Эвакуация легкового авто в Балаково</name>
+        <url>https://evakuatorbalakovo164.ru/#price-list-container</url>
+      </set>
+      <set id="s4">
+        <name>Эвакуация кроссовера в Балаково</name>
+        <url>https://evakuatorbalakovo164.ru/#price-list-container</url>
+      </set>
+      <set id="s5">
+        <name>Эвакуация внедорожника в Балаково</name>
+        <url>https://evakuatorbalakovo164.ru/#price-list-container</url>
+      </set>
+      <set id="s6">
+        <name>Эвакуация спецтехники в Балаково</name>
+        <url>https://evakuatorbalakovo164.ru/#price-list-container</url>
+      </set>
+    </sets>
+    <offers>
+      <offer id="1001">
+        <name>Эвакуация мотоцикла</name>
+        <vendor>Эвакуация мотоцикла</vendor>
+        <url>https://evakuatorbalakovo164.ru/#price-list-container</url>
+        <price from="true">1500</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>1</categoryId>
+        <set-ids>s1</set-ids>
+        <picture>https://evakuatorbalakovo164.ru/images/img4.JPG</picture>
+        <description>Эвакуация мотоцикла в Балаково</description>
+      </offer>
+      <offer id="1002">
+        <name>Эвакуация малолитражного авто</name>
+        <vendor>Эвакуация малолитражного авто</vendor>
+        <url>https://evakuatorbalakovo164.ru/#price-list-container</url>
+        <price from="true">1800</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>1</categoryId>
+        <set-ids>s2</set-ids>
+        <picture>https://evakuatorbalakovo164.ru/images/img15.jpg</picture>
+        <description>Эвакуация малолитражного авто в Балаково</description>
+      </offer>
+      <offer id="1003">
+        <name>Эвакуация легкового авто</name>
+        <vendor>Эвакуация легкового авто</vendor>
+        <url>https://evakuatorbalakovo164.ru/#price-list-container</url>
+        <price from="true">2000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>1</categoryId>
+        <set-ids>s3</set-ids>
+        <picture>https://evakuatorbalakovo164.ru/images/img2.png</picture>
+        <description>Эвакуация легкового авто в Балаково</description>
+      </offer>
+      <offer id="1004">
+        <name>Эвакуация кроссовера</name>
+        <vendor>Эвакуация кроссовера</vendor>
+        <url>https://evakuatorbalakovo164.ru/#price-list-container</url>
+        <price from="true">2300</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>1</categoryId>
+        <set-ids>s4</set-ids>
+        <picture>https://evakuatorbalakovo164.ru/images/img16.jpg</picture>
+        <description>Эвакуация кроссовера в Балаково</description>
+      </offer>
+      <offer id="1005">
+        <name>Эвакуация внедорожника</name>
+        <vendor>Эвакуация внедорожника</vendor>
+        <url>https://evakuatorbalakovo164.ru/#price-list-container</url>
+        <price from="true">2500</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>1</categoryId>
+        <set-ids>s5</set-ids>
+        <picture>https://evakuatorbalakovo164.ru/images/img17.jpg</picture>
+        <description>Эвакуация внедорожника в Балаково</description>
+      </offer>
+      <offer id="1006">
+        <name>Эвакуация спецтехника</name>
+        <vendor>Эвакуация спецтехники</vendor>
+        <url>https://evakuatorbalakovo164.ru/#price-list-container</url>
+        <price from="true">2800</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>1</categoryId>
+        <set-ids>s6</set-ids>
+        <picture>https://evakuatorbalakovo164.ru/images/img18.jpg</picture>
+        <description>Эвакуация спецтехники в Балаково</description>
+      </offer>
+    </offers>
+  </shop>
+</yml_catalog>
