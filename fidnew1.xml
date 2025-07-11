@@ -44,7 +44,7 @@
     </sets>
     <offers>
       <offer id="1001">
-        <name>Эвакуация мотоцикла</name>
+        <name>Эвакуатор Балаково</name>
         <vendor>Эвакуация мотоцикла</vendor>
         <url>https://evakuatorbalakovo164.ru/#price-list-container</url>
         <price from="true">1500</price>
@@ -56,9 +56,14 @@
         <param name="Конверсия">1</param>
         <param name="Число объявлений">1</param>
         <param name="Число объявлений во всех регионах">1</param>
+        <param name="Рейтинг">5.0</param>
+        <param name="Число отзывов">34</param>
+        <param name="Регион">Саратовская область</param>
+        <param name="Конверсия">90</param>
+        <param name="Годы опыта">3</param>
       </offer>
       <offer id="1002">
-        <name>Эвакуация малолитражного авто</name>
+        <name>Эвакуатор Балаково</name>
         <vendor>Эвакуация малолитражного авто</vendor>
         <url>https://evakuatorbalakovo164.ru/#price-list-container</url>
         <price from="true">1800</price>
@@ -70,9 +75,14 @@
         <param name="Конверсия">1</param>
         <param name="Число объявлений">1</param>
         <param name="Число объявлений во всех регионах">1</param>
+        <param name="Рейтинг">5.0</param>
+        <param name="Число отзывов">34</param>
+        <param name="Регион">Саратовская область</param>
+        <param name="Конверсия">90</param>
+        <param name="Годы опыта">3</param>
       </offer>
       <offer id="1003">
-        <name>Эвакуация легкового авто</name>
+        <name>Эвакуатор Балаково</name>
         <vendor>Эвакуация легкового авто</vendor>
         <url>https://evakuatorbalakovo164.ru/#price-list-container</url>
         <price from="true">2000</price>
@@ -84,9 +94,14 @@
         <param name="Конверсия">1</param>
         <param name="Число объявлений">1</param>
         <param name="Число объявлений во всех регионах">1</param>
+        <param name="Рейтинг">5.0</param>
+        <param name="Число отзывов">34</param>
+        <param name="Регион">Саратовская область</param>
+        <param name="Конверсия">90</param>
+        <param name="Годы опыта">3</param>
       </offer>
       <offer id="1004">
-        <name>Эвакуация кроссовера</name>
+        <name>Эвакуатор Балаково</name>
         <vendor>Эвакуация кроссовера</vendor>
         <url>https://evakuatorbalakovo164.ru/#price-list-container</url>
         <price from="true">2300</price>
@@ -98,9 +113,14 @@
         <param name="Конверсия">1</param>
         <param name="Число объявлений">1</param>
         <param name="Число объявлений во всех регионах">1</param>
+        <param name="Рейтинг">5.0</param>
+        <param name="Число отзывов">34</param>
+        <param name="Регион">Саратовская область</param>
+        <param name="Конверсия">90</param>
+        <param name="Годы опыта">3</param>
       </offer>
       <offer id="1005">
-        <name>Эвакуация внедорожника</name>
+        <name>Эвакуатор Балаково</name>
         <vendor>Эвакуация внедорожника</vendor>
         <url>https://evakuatorbalakovo164.ru/#price-list-container</url>
         <price from="true">2500</price>
@@ -112,9 +132,14 @@
         <param name="Конверсия">1</param>
         <param name="Число объявлений">1</param>
         <param name="Число объявлений во всех регионах">1</param>
+        <param name="Рейтинг">5.0</param>
+        <param name="Число отзывов">34</param>
+        <param name="Регион">Саратовская область</param>
+        <param name="Конверсия">90</param>
+        <param name="Годы опыта">3</param>
       </offer>
       <offer id="1006">
-        <name>Эвакуация спецтехника</name>
+        <name>Эвакуатор Балаково</name>
         <vendor>Эвакуация спецтехники</vendor>
         <url>https://evakuatorbalakovo164.ru/#price-list-container</url>
         <price from="true">2800</price>
@@ -126,6 +151,11 @@
         <param name="Конверсия">1</param>
         <param name="Число объявлений">1</param>
         <param name="Число объявлений во всех регионах">1</param>
+        <param name="Рейтинг">5.0</param>
+        <param name="Число отзывов">34</param>
+        <param name="Регион">Саратовская область</param>
+        <param name="Конверсия">90</param>
+        <param name="Годы опыта">3</param>
       </offer>
     </offers>
   </shop>
